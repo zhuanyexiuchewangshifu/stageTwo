@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>案例--交换两个变量的值</title>
+</head>
+<body>
+  <script>
+    // 已知两个变量firstNum,secondNum,firstNum的值为5,secondNum的值为6,请编写程序实现两个变量的交换
+    // 使得firstNum的值为6,secondNum的值为5
+
+    // 方案一: 使用第三个变量
+    // 1.声明两个变量
+    // var firstNum = 5,secondNum=6;
+    // 2.声明临时变量
+    // var temp;
+    // temp = firstNum; // temp =5;
+    // firstNum = secondNum; // firstNum = 6;
+    // secondNum = temp; // secondNum = 5;
+
+    // 方案二: 不使用第三个变量
+    var firstNum = 5,secondNum=6;
+    firstNum = firstNum + secondNum; // firstNum =11;
+    secondNum = firstNum -secondNum; // secondNum = 11-6 = 5;
+    firstNum = firstNum = secondNum; // firstNum = 11-5 = 6;
+    // 所以 firstNum = 6 secondNum=5;
+  </script>
+</body>
+</html>

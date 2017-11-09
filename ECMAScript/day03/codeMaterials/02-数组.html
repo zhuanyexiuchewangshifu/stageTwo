@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>数组</title>
+</head>
+<body>
+   <script>
+    //  为什么需要数组?
+    //  在前几天的课程中,我们学习了变量 比如说数字 字符串 布尔等,可以用来存储数据,但是他们只能春初一个
+    //  比如: var num = 1; var str = 'Hello World';,但是如果我们要保存100个学生的姓名,就做不到了.
+    //  这时候,我们需要一个能保存这100位学生,也就是集合的数据类型 那么就需要数组出场了.
+    //  数组是什么?
+    //  所谓的数组就是一系列 项组成的一个有顺序的集合,这个集合就是数组
+    // 如何声明一个数组
+    // var arr = [];
+    // var arr = [1,2,3,2,5,6,7,8];
+    // console.log(arr);
+
+    // var names = ['zs','ls','wy','gaojun'];
+    // 如何获取数组中的数据
+    // 可以通过下标/索引来获取 
+    // console.log(names[1]);
+    // console.log(names[4]);
+    // 数组的长度: 数组中元素的个数
+    // console.log(names.length);
+    // 如果数组有29项,那么最后一项的索引是多少?  数组长度-1; 
+
+
+    // 数组的长度可以动态改变
+    var names = ['zs', 'ls', 'ww', 'zl'];
+    // 如何修改数组中的元素
+    // names[0] = 'XX22';
+
+    // // 给数组增加一项
+    // names[4] = 'adsfdsaf';
+ 
+
+    // names[6] = '23dsf';
+    // console.log(names);
+    // 取数组中的每一项，并打印（遍历数组）
+    // for(var i = 0;i<names.length;i++){
+    //   console.log(names[i]);
+    // }
+    // 如何清空数组
+    names.length = 0;
+    console.log(names);
+   </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>在html中使用JavaScript</title>
+</head>
+
+<body>
+  <!-- 
+    在html文件中使用JavaScript一共有三种方案
+    1.行内  
+    2.内嵌  使用script标签
+    3.外链  使用script标签的src属性
+   -->
+
+  <!-- 1.行内 -->
+  <a href="javascript:;" onclick="alert('Hello,World')">点我试试</a>
+
+  <!-- 2.内嵌  使用script标签  -->
+  <script>
+    console.log('Hello,World!!!');
+  </script>
+
+  <!-- 3.外链 使用script标签的src属性 -->
+  <script src="./helloWorld.js"></script>
+</body>
+
+</html>
